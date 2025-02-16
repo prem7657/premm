@@ -1,0 +1,466 @@
+{
+  "users": [
+    {
+      "id": "admin1",
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "status": "approved",
+      "subscribedPrograms": [],
+      "createdAt": "2025-02-16T05:00:00.000Z"
+    },
+    {
+      "id": "user1",
+      "username": "user",
+      "email": "user@example.com",
+      "password": "user123",
+      "role": "user",
+      "status": "approved",
+      "subscribedPrograms": [],
+      "createdAt": "2025-02-16T05:00:00.000Z"
+    },
+    {
+      "id": "user2",
+      "username": "user2",
+      "email": "user2@example.com",
+      "password": "user2123",
+      "role": "user",
+      "status": "approved",
+      "subscribedPrograms": [],
+      "createdAt": "2025-02-16T05:00:00.000Z"
+    }
+  ],
+  "programs": [
+    {
+      "name": "TES",
+      "description": "fasfasf",
+      "imageUrl": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D",
+      "createdAt": "2025-02-16T05:14:28.793Z",
+      "id": "2fa0"
+    },
+    {
+      "name": "MTh Sem 2",
+      "description": "TEst",
+      "imageUrl": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D",
+      "createdAt": "2025-02-16T14:16:01.477Z",
+      "id": "M0cQVI5"
+    }
+  ],
+  "courses": [
+    {
+      "name": "mth sEMESTER",
+      "semester": "sEMESTER 1",
+      "group": "1",
+      "description": "dAS",
+      "imageUrl": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D",
+      "videoUrl": "https://www.youtube.com/shorts/-hcieZ650IU",
+      "programId": "2fa0",
+      "createdAt": "2025-02-16T14:10:06.025Z",
+      "id": 1
+    },
+    {
+      "name": "TEST",
+      "semester": "1",
+      "group": "3",
+      "description": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D",
+      "imageUrl": "https://images.unsplash.com/photo-1575936123452-b67c3203c357?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D",
+      "videoUrl": "https://www.youtube.com/watch?v=TtdnhnFCIqQ",
+      "programId": "M0cQVI5",
+      "createdAt": "2025-02-16T14:16:21.431Z",
+      "id": 2
+    },
+    {
+      "name": "TEST",
+      "semester": "2",
+      "group": "2",
+      "description": "dwa",
+      "imageUrl": "https://www.youtube.com/watch?v=TtdnhnFCIqQ",
+      "videoUrl": "https://www.youtube.com/watch?v=TtdnhnFCIqQ",
+      "programId": "M0cQVI5",
+      "createdAt": "2025-02-16T14:16:44.661Z",
+      "id": 3
+    }
+  ],
+  "questions": [
+    {
+      "id": "1739715042313",
+      "text": "dSAD",
+      "courseId": 1,
+      "createdAt": "2025-02-16T14:10:42.313Z",
+      "likes": [],
+      "answers": [
+        {
+          "id": "1739715073429",
+          "text": "teSF",
+          "userId": "admin1",
+          "username": "admin",
+          "createdAt": "2025-02-16T14:11:13.429Z",
+          "likes": []
+        }
+      ],
+      "showAnswers": true
+    },
+    {
+      "id": "1739715422104",
+      "text": "HOW R U ?",
+      "courseId": 2,
+      "createdAt": "2025-02-16T14:17:02.104Z",
+      "likes": [
+        "user1"
+      ],
+      "answers": [
+        {
+          "id": "1739715577104",
+          "text": "NICE",
+          "userId": "user1",
+          "username": "user",
+          "createdAt": "2025-02-16T14:19:37.104Z",
+          "likes": [
+            "admin1"
+          ],
+          "comments": [
+            {
+              "id": "1739715607606",
+              "userId": "admin1",
+              "username": "admin",
+              "content": "THANK YOU",
+              "createdAt": "2025-02-16T14:20:07.606Z"
+            }
+          ]
+        }
+      ],
+      "showAnswers": true
+    }
+  ],
+  "materials": [
+    {
+      "title": "Adsa",
+      "description": "dasdasd",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "userId": "admin1",
+      "comments": [
+        {
+          "id": "1739701495175",
+          "userId": "admin1",
+          "username": "admin",
+          "content": "dasdasd",
+          "createdAt": "2025-02-16T10:24:55.175Z"
+        },
+        {
+          "id": "1739701505778",
+          "userId": "user1",
+          "username": "user",
+          "content": "dasdasdas",
+          "createdAt": "2025-02-16T10:25:05.778Z"
+        }
+      ],
+      "createdAt": "2025-02-16T10:24:43.618Z",
+      "id": "1739701483618"
+    },
+    {
+      "title": "TEST",
+      "description": "TEst",
+      "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+      "userId": "admin1",
+      "comments": [
+        {
+          "id": "1739715632456",
+          "userId": "user1",
+          "username": "user",
+          "content": "NICE INFORMATION MATERIAL",
+          "createdAt": "2025-02-16T14:20:32.456Z"
+        }
+      ],
+      "createdAt": "2025-02-16T14:17:35.480Z",
+      "id": "1739715455480"
+    }
+  ],
+  "quizzes": [
+    {
+      "name": "SDasd",
+      "description": "sdasd",
+      "duration": 1,
+      "isActive": true,
+      "questions": [
+        {
+          "text": "REea",
+          "options": [
+            "asdas",
+            "dsad",
+            "das",
+            "a"
+          ],
+          "correctOption": "0"
+        },
+        {
+          "text": "sadasd",
+          "options": [
+            "a",
+            "b",
+            "c"
+          ],
+          "correctOption": "0"
+        }
+      ],
+      "id": "1739704524218",
+      "createdAt": "2025-02-16T11:30:07.142Z"
+    },
+    {
+      "name": "HAPPY",
+      "description": "fsad",
+      "duration": 1,
+      "isActive": true,
+      "questions": [
+        {
+          "text": "Gow ru ",
+          "options": [
+            "A",
+            "b",
+            "c",
+            "d"
+          ],
+          "correctOption": "1"
+        },
+        {
+          "text": "TEST 2 ",
+          "options": [
+            "A",
+            "B"
+          ],
+          "correctOption": "1"
+        }
+      ],
+      "id": "1739715495408",
+      "createdAt": "2025-02-16T14:18:15.408Z"
+    }
+  ],
+  "liveClasses": [],
+  "comments": [],
+  "discussions": [
+    {
+      "title": "sad",
+      "content": "asdasd",
+      "userId": "admin1",
+      "likes": 1,
+      "comments": [
+        {
+          "id": "1739701717936",
+          "userId": "user1",
+          "username": "user",
+          "content": "dfsfas",
+          "createdAt": "2025-02-16T10:28:37.936Z"
+        },
+        {
+          "id": "1739701725271",
+          "userId": "admin1",
+          "username": "admin",
+          "content": "dasdasd",
+          "createdAt": "2025-02-16T10:28:45.271Z"
+        }
+      ],
+      "createdAt": "2025-02-16T10:28:22.992Z",
+      "id": "1739701702992"
+    },
+    {
+      "title": "MTH SERIES",
+      "content": "TEST",
+      "userId": "admin1",
+      "likes": 1,
+      "comments": [
+        {
+          "id": "1739715663581",
+          "userId": "user1",
+          "username": "user",
+          "content": "HEllo",
+          "createdAt": "2025-02-16T14:21:03.581Z"
+        },
+        {
+          "id": "1739715678735",
+          "userId": "admin1",
+          "username": "admin",
+          "content": "ello user",
+          "createdAt": "2025-02-16T14:21:18.735Z"
+        }
+      ],
+      "createdAt": "2025-02-16T14:18:32.174Z",
+      "id": "1739715512174"
+    }
+  ],
+  "books": [],
+  "attendance": [
+    {
+      "userId": "admin1",
+      "date": "2025-02-16T13:52:21.921Z",
+      "status": "absent",
+      "id": 1
+    },
+    {
+      "userId": "user1",
+      "date": "2025-02-16T13:52:27.801Z",
+      "status": "present",
+      "id": 2
+    },
+    {
+      "userId": "admin1",
+      "date": "2025-02-16T13:52:56.507Z",
+      "status": "present",
+      "id": 3
+    },
+    {
+      "userId": "admin1",
+      "date": "2025-02-16T13:53:00.083Z",
+      "status": "absent",
+      "id": 4
+    },
+    {
+      "userId": "user2",
+      "date": "2025-02-16T14:00:24.090Z",
+      "status": "present",
+      "id": 5
+    },
+    {
+      "userId": "user2",
+      "userName": "user2",
+      "date": "2025-02-16T14:18:51.732Z",
+      "status": "absent",
+      "id": 6
+    },
+    {
+      "userId": "admin1",
+      "userName": "admin",
+      "date": "2025-02-16T14:18:56.388Z",
+      "status": "absent",
+      "id": 7
+    }
+  ],
+  "notifications": [],
+  "quiz-submissions": [
+    {
+      "id": "1739705380691",
+      "userId": "user1",
+      "username": "user",
+      "quizId": "1739704524218",
+      "answers": {
+        "undefined": "a"
+      },
+      "score": 0,
+      "timeSpent": 5,
+      "submittedAt": "2025-02-16T11:29:40.692Z"
+    },
+    {
+      "id": "1739705390307",
+      "userId": "user1",
+      "username": "user",
+      "quizId": "1739704524218",
+      "answers": {
+        "undefined": "c"
+      },
+      "score": 0,
+      "timeSpent": 5,
+      "submittedAt": "2025-02-16T11:29:50.307Z"
+    },
+    {
+      "id": "1739705416005",
+      "userId": "user1",
+      "username": "user",
+      "quizId": "1739704524218",
+      "answers": {
+        "undefined": "a"
+      },
+      "score": 0,
+      "timeSpent": 4,
+      "submittedAt": "2025-02-16T11:30:16.005Z"
+    },
+    {
+      "id": "1739705530855",
+      "userId": "user1",
+      "username": "user",
+      "quizId": "1739704524218",
+      "answers": {
+        "undefined": "a"
+      },
+      "score": 0,
+      "timeSpent": 6,
+      "submittedAt": "2025-02-16T11:32:10.855Z"
+    },
+    {
+      "id": "1739705545175",
+      "userId": "user1",
+      "username": "user",
+      "quizId": "1739704524218",
+      "answers": {
+        "0": "asdas",
+        "1": "a"
+      },
+      "score": 100,
+      "timeSpent": 6,
+      "submittedAt": "2025-02-16T11:32:25.175Z"
+    },
+    {
+      "id": "1739705551552",
+      "userId": "user1",
+      "username": "user",
+      "quizId": "1739704524218",
+      "answers": {
+        "0": "asdas",
+        "1": "c"
+      },
+      "score": 50,
+      "timeSpent": 3,
+      "submittedAt": "2025-02-16T11:32:31.552Z"
+    },
+    {
+      "id": "1739705826485",
+      "userId": "user1",
+      "username": "user",
+      "quizId": "1739704524218",
+      "answers": {
+        "0": "asdas",
+        "1": "c"
+      },
+      "score": 50,
+      "timeSpent": 5,
+      "submittedAt": "2025-02-16T11:37:06.485Z"
+    },
+    {
+      "id": "1739706722898",
+      "userId": "user1",
+      "username": "user",
+      "quizId": "1739704524218",
+      "answers": {
+        "0": "asdas",
+        "1": "a"
+      },
+      "score": 100,
+      "timeSpent": 4,
+      "submittedAt": "2025-02-16T11:52:02.898Z"
+    },
+    {
+      "id": "1739707996728",
+      "userId": "user2",
+      "username": "user2",
+      "quizId": "1739704524218",
+      "answers": {
+        "0": "a",
+        "1": "c"
+      },
+      "score": 0,
+      "timeSpent": 5,
+      "submittedAt": "2025-02-16T12:13:16.728Z"
+    },
+    {
+      "id": "1739715650381",
+      "userId": "user1",
+      "username": "user",
+      "quizId": "1739715495408",
+      "answers": {
+        "0": "A",
+        "1": "A"
+      },
+      "score": 0,
+      "timeSpent": 7,
+      "submittedAt": "2025-02-16T14:20:50.381Z"
+    }
+  ]
+}
